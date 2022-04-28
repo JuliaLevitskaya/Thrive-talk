@@ -175,3 +175,149 @@
     line-height: 35px;
     color: #FFFFFF;
 }
+
+.self-care {
+    background: #FFFFFF;
+}
+
+.self-care_description {
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+
+.about-us {
+    font-size: 16px;
+    line-height: 23px;
+    width: 30%;
+    padding-left: 120px;
+    box-sizing: border-box;
+    font-family: "Larsseit-Light";
+    color: #22356F;
+}
+
+.self-care_description__subtitle {
+    font-size: 24px;
+    line-height: 34px;
+    width: 39%;
+    font-family: "Larsseit-Bold";
+    color: #22356F;
+}
+
+.self-care__title {
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 30px;
+    font-family: "Larsseit";
+    text-align: center;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.cells {
+    display: flex;
+    list-style: none;
+    padding-bottom: 90px;
+}
+
+.cell__item {
+    width: 25%;
+    height: 360px;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+.cell__item_text {
+    font-size: 32px;
+    line-height: 34px;
+    display: flex;
+    border-top: 2px solid white;
+    width: 78%;
+    margin: auto;
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-family: "Larsseit-Bold";
+}
+
+.cell__item_text:before {
+    content: '';
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: block;
+    background: #E9B730;
+    margin: 5px 15px 0 0
+}
+
+.cell__item--pink {
+    background: #FFE2DE;
+}
+
+.cell__item--green {
+    background: #C4E769;
+}
+
+.cell__item--blue {
+    background: #62D0DF;
+}
+
+.cell__item--sky {
+    background: #0052C1;
+}
+
+.health {
+    display: flex;
+    list-style: none;
+}
+
+.health_item {
+    width: 34%;
+    height: 480px;
+    box-sizing: border-box;
+}
+
+.health__item_text {
+    font-size: 32px;
+    line-height: 34px;
+    font-family: "Larsseit-Bold";
+    display: flex;
+    border-top: 2px solid white;
+    width: 78%;
+    margin: auto;
+    margin-top: 120px;
+    padding-top: 25px;
+    color: #FFFFFF;
+}
+
+.health__item_text:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+    background: #E9B730;
+    margin: 11px 15px 0 0
+}
+
+.health__item--blue {
+    background: #22356F;
+}
+
+.health__item--sky {
+    background: #0052C1;
+}
+
+.health__item--img {
+    background: url(/img3/joanna-kosinska-340748.png)
+}
+
+.health__item--purple {
+    background: #62D0DF;
+}
+
+.health__item--grey {
+    background: #DEE1FF;
+}
+
+.health__item--violet {
+    background: #8F00FF;
+}
