@@ -389,3 +389,53 @@
     cursor: pointer;
     background-color: transparent;
 }
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #22356F;
+}
+
+.contact-us__description {
+    width: 579px;
+    padding-left: 180px;
+}
+
+.contact-us__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    padding-bottom: 230px;
+    font-family: "Larsseit";
+    color: #FFFFFF;
+}
+
+.contact-us__title {
+    font-family: "Larsseit-Bold";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 94px;
+    padding-bottom: 75px;
+    color: #FFFFFF;
+}
+
+.contact-us__subtitle {
+    font-family: "Larsseit";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    padding-bottom: 80px;
+    color: #FFFFFF;
+}
+
+.contact-us__btn {
+    font-family: "Larsseit";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #62D0DF;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
