@@ -272,6 +272,7 @@
 .health_item {
     width: 34%;
     height: 480px;
+    padding: 120px 50px 0 50px;
     box-sizing: border-box;
 }
 
@@ -281,9 +282,6 @@
     font-family: "Larsseit-Bold";
     display: flex;
     border-top: 2px solid white;
-    width: 78%;
-    margin: auto;
-    margin-top: 120px;
     padding-top: 25px;
     color: #FFFFFF;
 }
@@ -307,7 +305,8 @@
 }
 
 .health__item--img {
-    background: url(/img3/joanna-kosinska-340748.png)
+    background: url(/img3/joanna-kosinska-340748.png);
+    background-size: 100%;
 }
 
 .health__item--purple {
@@ -320,4 +319,29 @@
 
 .health__item--violet {
     background: #8F00FF;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.info__box {
+    box-sizing: border-box;
+    padding: 55px 77px 37px 105px;
+}
+
+.info__title {
+    font-size: 28px;
+    font-family: "Larsseit";
+    line-height: 33px;
+    padding-bottom: 28px;
+    color: #22356F;
+}
+
+.info__subtitle {
+    font-size: 16px;
+    font-family: "Larsseit-Light";
+    line-height: 25px;
+    color: rgba(34, 53, 111, 0.5);
 }
