@@ -345,3 +345,47 @@
     line-height: 25px;
     color: rgba(34, 53, 111, 0.5);
 }
+
+.help {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.help__description {
+    width: 676px;
+    padding: 103px 0 42px 106px;
+}
+
+.help__title {
+    font-family: "Larsseit";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    padding-bottom: 225px;
+    color: #22356F;
+}
+
+.help__subtitle {
+    font-family: "Larsseit-Bold";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    padding-bottom: 152px;
+    color: #22356F;
+}
+
+.thrive-talk__font-blue {
+    color: #62D0DF;
+}
+
+.help__btn {
+    font-family: "Larsseit-Bold";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FAB63E;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
